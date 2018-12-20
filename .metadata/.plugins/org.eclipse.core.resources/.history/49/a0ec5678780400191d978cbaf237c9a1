@@ -1,0 +1,19 @@
+package ua.univer.vehicle.util;
+
+import ua.univer.vehicle.model.AmphibiousVehicles;
+import ua.univer.vehicle.model.CCar;
+import ua.univer.vehicle.model.CPlain;
+import ua.univer.vehicle.model.CShip;
+
+public class VehicleFactory {
+	public static CVehicle getVehicle (int i) {
+		switch (i) {
+		case 0: new CCar (1,1,1000,100,2012);
+		case 1: new CPlain (2,2,100000,900,1955,10000,450);
+		case 2: new CShip (3,3,250000,35,1931,1500,9);
+		case 3: new AmphibiousVehicles (4,4,251000,80,2018,60);
+		case 4: 
+		default : return null;
+		}
+	}
+}

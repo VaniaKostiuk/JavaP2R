@@ -1,0 +1,32 @@
+package prg01HomeWork;
+
+public class AmphibiousVehicles extends CVehicle {
+
+	public int speedMove ;
+	public int speedSwim ;
+	
+	public AmphibiousVehicles(int x, int y, int price, int speed, int dateYear, int speedMove, int speedSwim) {
+		super(x, y, price, speed, dateYear);
+		this.speedMove = speedMove;
+		this.speedSwim = speedSwim;
+	}
+	public int getSpeedMove() {
+		return speedMove;
+	}
+	public void setSpeedMove(int speedMove) {
+		this.speedMove = speedMove;
+	}
+	public int getSpeedSwim() {
+		return speedSwim;
+	}
+	public void setSpeedSwim(int speedSwim) {
+		this.speedSwim = speedSwim;
+	}
+	@Override
+	public String toString() {
+		return "AmphibiousVehicles [speedMove=" + speedMove + ", speedSwim=" + speedSwim + "]";
+	}
+	
+	
+	
+}

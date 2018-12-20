@@ -1,0 +1,10 @@
+package prg01HomeWork;
+
+public class CAmphibiousVehicles extends CShip {
+
+	public CAmphibiousVehicles(int x, int y, int price, int speed, int dateYear, int numPassShip, int homePort) {
+		super(x, y, price, speed, dateYear, numPassShip, homePort);
+		// TODO Auto-generated constructor stub
+	}
+	
+}

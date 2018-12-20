@@ -1,0 +1,10 @@
+package prg01HomeWork;
+
+public class Betmobile extends CPlain{
+
+	public Betmobile(int x, int y, int price, int speed, int dateYear, int height, int numPassPlain) {
+		super(x, y, price, speed, dateYear, height, numPassPlain);
+		// TODO Auto-generated constructor stub
+	}
+
+}
