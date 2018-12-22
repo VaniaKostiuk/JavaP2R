@@ -6,4 +6,13 @@
 <fullyQualifiedTypeName name="ua.univer.vehicle.model.AmphibiousVehicles"/>
 <fullyQualifiedTypeName name="ua.univer.vehicle.model.Betmobile"/>
 <fullyQualifiedTypeName name="prg01HomeWork.CVehicle"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="prj06Arrays.FlyAble"/>
+<fullyQualifiedTypeName name="prj07Duck.QuackBehavior"/>
+<fullyQualifiedTypeName name="prj07Duck.MallardDuck"/>
+<fullyQualifiedTypeName name="prj07Duck.FlyNoWay"/>
+<fullyQualifiedTypeName name="prj07Duck.Quack"/>
+<fullyQualifiedTypeName name="prj07Duck.FlyBehavior"/>
+<fullyQualifiedTypeName name="prj07Duck.ModelDuck"/>
+<fullyQualifiedTypeName name="prj07Duck.FlyRocketPowered"/>
 </qualifiedTypeNameHistroy>
